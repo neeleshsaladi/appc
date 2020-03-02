@@ -8,7 +8,7 @@
 
 <h2>JavaScript Celcius to Fahrenhet</h2>
 
-<p>Insert a number into one of the input fields below:</p>
+<p>Insert the celcius value in input field below:</p>
 
 <p> Degrees Celsius : <input id="c" onkeyup="convert('C')" placeholder="Enter Temp in celcius"></p>
 
@@ -19,7 +19,7 @@
 function convert(degree) {
   var x;
   if (degree == "C") {
-    x = document.getElementById("c").value  + (273.15);
+    x = document.getElementById("c").value  +273.15;
     document.getElementById("f").value = (x);
   } 
 //   else {
